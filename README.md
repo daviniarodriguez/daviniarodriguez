@@ -13,72 +13,49 @@
 
 <div align="center">
 
-## 💼 En qué trabajo
+## 💼 Trabajo realizado
 
 </div>
 
-<table>
-  <tr>
-    <td align="center" width="50%" valign="top">
-      <h3>👥 Plataforma de RRHH</h3>
-      <img src="https://img.shields.io/badge/Estado-🟢%20En%20producción-2EA043?style=flat-square">
-      <p>
-        Sistema de recursos humanos basado en <b>Horilla HR</b> (Django, código abierto) y adaptado a la empresa:
-        empleados, ausencias, fichajes, nóminas y contratación.
-      </p>
-      <p>
-        He trabajado en <b>roles y permisos</b> (quién ve qué, por ejemplo el historial de un empleado),
-        <b>alta de empresas mediante migraciones de datos</b>, edición de grupos sincronizada con el
-        proveedor de identidad y generación de nóminas en PDF.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white">
-        <img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white">
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white">
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white">
-      </p>
-    </td>
-    <td align="center" width="50%" valign="top">
-      <h3>🔐 Login único y seguridad</h3>
-      <img src="https://img.shields.io/badge/Estado-🟢%20En%20producción-2EA043?style=flat-square">
-      <p>
-        Un <b>proveedor de identidad con Authentik</b> para que todas las aplicaciones internas
-        compartan login, con <b>doble factor (MFA)</b>, acceso de emergencia y roles por grupos.
-      </p>
-      <p>
-        He montado la <b>política de contraseñas</b> como configuración versionada (blueprints),
-        la auditoría del MFA y la personalización visual del login, dejando el CSS limpio y mantenible.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Authentik-FD4B2D?style=flat&logo=authentik&logoColor=white">
-        <img src="https://img.shields.io/badge/OAuth2%20%2F%20OIDC-000000?style=flat&logo=openid&logoColor=white">
-        <img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white">
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2" valign="top">
-      <h3>🤖 Automatización de procesos</h3>
-      <img src="https://img.shields.io/badge/Estado-🟢%20En%20producción-2EA043?style=flat-square">
-      <p>
-        Procesos web automatizados de principio a fin en <b>Python</b>, en paralelo y sin intervención manual,
-        con un núcleo común reutilizable y alertas en <b>Slack</b> cuando algo falla.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white">
-        <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white">
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white">
-        <img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white">
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white">
-        <img src="https://img.shields.io/badge/Slack%20API-4A154B?style=flat&logo=slack&logoColor=white">
-      </p>
-    </td>
-  </tr>
-</table>
+Casi todo vive en repositorios privados de empresa. Estos son los casos de estudio: la ingeniería que hay detrás, sin detalles internos.
+
+### 🤖 Plataforma de automatización de procesos web
+
+**Problema:** procesos web repetitivos que se hacían a mano, cada uno con su propio flujo, formularios, pasarela de pago y formas de fallar.
+
+**Construido:** un núcleo común reutilizable (login, formularios, pagos con 3-D Secure, descargas, avisos) y un módulo pequeño por proceso. La estrategia de cada proceso se elige según lo que exige: HTTP directo cuando se puede, navegador completo con Selenium o Playwright cuando hace falta. Un lanzador en paralelo con timeouts y limpieza de procesos huérfanos, pools de proxies con aislamiento de red en Linux y simuladores para probar sin efectos reales.
+
+**Resultado:** procesos desatendidos que corren en paralelo y, cuando algo falla, avisan en Slack, abren una incidencia y guardan capturas para diagnosticarlo.
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white"> <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white"> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white"> <img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/Slack%20API-4A154B?style=flat&logo=slack&logoColor=white">
+
+### 👥 Plataforma de recursos humanos
+
+**Problema:** hacía falta un sistema de RRHH propio (empleados, ausencias, fichajes, nóminas y contratación) adaptado a la estructura de la empresa y a quién puede ver qué.
+
+**Construido:** sobre **Horilla HR** (Django, código abierto): roles y permisos de grano fino (por ejemplo, quién ve el historial de un empleado), alta de empresas mediante migraciones de datos, edición de grupos sincronizada con el proveedor de identidad y generación de nóminas en PDF.
+
+**Resultado:** en producción, con los permisos definidos en código y no a mano.
+
+<img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white"> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white">
+
+### 🔐 Inicio de sesión único y seguridad
+
+**Problema:** cada aplicación interna tenía su propio inicio de sesión y sus propias contraseñas.
+
+**Construido:** un proveedor de identidad con **Authentik** (OAuth2 / OIDC) con doble factor, acceso de emergencia y roles por grupos. La política de contraseñas se gestiona como configuración versionada (blueprints), con auditoría del MFA y un inicio de sesión personalizado con CSS limpio y mantenible.
+
+**Resultado:** un único inicio de sesión con doble factor para las aplicaciones internas.
+
+<img src="https://img.shields.io/badge/Authentik-FD4B2D?style=flat&logo=authentik&logoColor=white"> <img src="https://img.shields.io/badge/OAuth2%20%2F%20OIDC-000000?style=flat&logo=openid&logoColor=white"> <img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white">
+
+### 🧠 Herramientas de IA y flujo de trabajo
+
+- **Claude Code** con skills propias para redactar tickets, documentar cambios y preparar el QA.
+- Git hooks y **GitHub Actions** que revisan los cambios antes de llegar a la rama principal.
+- Pruebas con **pytest** y simuladores antes de dar nada por terminado.
 
 <div align="center">
-
-<sub>Estos proyectos son de empresa y su código es privado; aquí solo cuento en qué consisten.</sub>
 
 ## 🌱 Ahora mismo
 
