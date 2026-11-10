@@ -21,25 +21,19 @@ Casi todo vive en repositorios privados de empresa. Estos son los casos de estud
 
 ### 🤖 Plataforma de automatización de procesos web
 
-**Construido:** un núcleo común reutilizable y un módulo pequeño por proceso, con peticiones HTTP o navegador automatizado (Selenium / Playwright) según lo que necesite cada caso. Ejecución en paralelo y simuladores para probar sin efectos reales.
-
-**Resultado:** procesos que se ejecutan solos y avisan cuando algo falla.
+Plataforma en Python que automatiza tareas web repetitivas de principio a fin. Tiene un núcleo común reutilizable y un módulo pequeño por proceso, que trabaja con peticiones HTTP o con navegador automatizado (Selenium / Playwright) según lo que necesite cada caso. Los procesos se ejecutan solos y en paralelo, se prueban con simuladores sin efectos reales y avisan cuando algo falla.
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white"> <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white"> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white"> <img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/Slack%20API-4A154B?style=flat&logo=slack&logoColor=white">
 
 ### 👥 Plataforma de recursos humanos
 
-**Construido:** sobre **Horilla HR** (Django, código abierto): roles y permisos de grano fino (por ejemplo, quién ve el historial de un empleado), alta de empresas mediante migraciones de datos, edición de grupos sincronizada con el proveedor de identidad y generación de nóminas en PDF.
-
-**Resultado:** en producción, con los permisos definidos en código y no a mano.
+Sistema de RRHH en producción basado en **Horilla HR** (Django, código abierto) y adaptado a la empresa: empleados, ausencias, fichajes, nóminas y contratación. He trabajado en roles y permisos (quién ve qué, por ejemplo el historial de un empleado), alta de empresas mediante migraciones de datos, edición de grupos sincronizada con el proveedor de identidad y generación de nóminas en PDF.
 
 <img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white"> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white">
 
 ### 🔐 Inicio de sesión único y seguridad
 
-**Construido:** un proveedor de identidad con **Authentik** (OAuth2 / OIDC) con doble factor, acceso de emergencia y roles por grupos. La política de contraseñas se gestiona como configuración versionada (blueprints), con auditoría del MFA y un inicio de sesión personalizado con CSS limpio y mantenible.
-
-**Resultado:** un único inicio de sesión con doble factor para las aplicaciones internas.
+Inicio de sesión único para las aplicaciones internas con **Authentik** (OAuth2 / OIDC), con doble factor, acceso de emergencia y roles por grupos. He montado la política de contraseñas como configuración versionada (blueprints), la auditoría del MFA y la personalización visual del inicio de sesión, con CSS limpio y mantenible.
 
 <img src="https://img.shields.io/badge/Authentik-FD4B2D?style=flat&logo=authentik&logoColor=white"> <img src="https://img.shields.io/badge/OAuth2%20%2F%20OIDC-000000?style=flat&logo=openid&logoColor=white"> <img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white">
 
