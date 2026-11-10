@@ -19,11 +19,11 @@
 
 Casi todo vive en repositorios privados de empresa. Estos son los casos de estudio: la ingeniería que hay detrás, sin detalles internos.
 
-### 🤖 Plataforma de automatización de procesos web
+### 🤖 Automatización de procesos
 
-Plataforma en Python que automatiza tareas web repetitivas de principio a fin. Tiene un núcleo común reutilizable y un módulo pequeño por proceso, que trabaja con peticiones HTTP o con navegador automatizado (Selenium / Playwright) según lo que necesite cada caso. Los procesos se ejecutan solos y en paralelo, se prueban con simuladores sin efectos reales y avisan cuando algo falla.
+Desarrollo de automatizaciones en Python con una arquitectura modular y reutilizable, que se ejecutan de forma desatendida y avisan cuando algo falla.
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white"> <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white"> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white"> <img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/Slack%20API-4A154B?style=flat&logo=slack&logoColor=white">
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white"> <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white">
 
 ### 👥 Plataforma de recursos humanos
 
