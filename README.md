@@ -9,7 +9,7 @@
   <a href="mailto:rodriguezportillodavinia@gmail.com"><img src="https://img.shields.io/badge/rodriguezportillodavinia@gmail.com-blue?logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
-🛠️ Desarrolladora backend con **Python y Django**. Trabajo en aplicaciones internas de empresa: una plataforma de **recursos humanos**, **login único (SSO) con doble factor**, permisos por roles y la infraestructura con **Docker** que las mantiene en marcha. Me gusta el trabajo bien hecho: probar las cosas antes de darlas por terminadas, documentar cada tarea y que el código lo pueda entender el siguiente que llegue.
+🛠️ Desarrolladora backend con **Python**. Trabajo en aplicaciones internas de empresa: **automatización de procesos**, una plataforma de **recursos humanos**, **login único (SSO) con doble factor**, permisos por roles y la infraestructura con **Docker** que las mantiene en marcha. Me gusta el trabajo bien hecho: probar las cosas antes de darlas por terminadas, documentar cada tarea y que el código lo pueda entender el siguiente que llegue.
 
 <div align="center">
 
