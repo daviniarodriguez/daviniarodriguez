@@ -21,8 +21,6 @@ Casi todo vive en repositorios privados de empresa. Estos son los casos de estud
 
 ### 🤖 Plataforma de automatización de procesos web
 
-**Problema:** tareas web repetitivas que se hacían a mano, cada una con su propio flujo y sus propias formas de fallar.
-
 **Construido:** un núcleo común reutilizable y un módulo pequeño por proceso, con peticiones HTTP o navegador automatizado (Selenium / Playwright) según lo que necesite cada caso. Ejecución en paralelo y simuladores para probar sin efectos reales.
 
 **Resultado:** procesos que se ejecutan solos y avisan cuando algo falla.
@@ -31,8 +29,6 @@ Casi todo vive en repositorios privados de empresa. Estos son los casos de estud
 
 ### 👥 Plataforma de recursos humanos
 
-**Problema:** hacía falta un sistema de RRHH propio (empleados, ausencias, fichajes, nóminas y contratación) adaptado a la estructura de la empresa y a quién puede ver qué.
-
 **Construido:** sobre **Horilla HR** (Django, código abierto): roles y permisos de grano fino (por ejemplo, quién ve el historial de un empleado), alta de empresas mediante migraciones de datos, edición de grupos sincronizada con el proveedor de identidad y generación de nóminas en PDF.
 
 **Resultado:** en producción, con los permisos definidos en código y no a mano.
@@ -40,8 +36,6 @@ Casi todo vive en repositorios privados de empresa. Estos son los casos de estud
 <img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white"> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white">
 
 ### 🔐 Inicio de sesión único y seguridad
-
-**Problema:** cada aplicación interna tenía su propio inicio de sesión y sus propias contraseñas.
 
 **Construido:** un proveedor de identidad con **Authentik** (OAuth2 / OIDC) con doble factor, acceso de emergencia y roles por grupos. La política de contraseñas se gestiona como configuración versionada (blueprints), con auditoría del MFA y un inicio de sesión personalizado con CSS limpio y mantenible.
 
