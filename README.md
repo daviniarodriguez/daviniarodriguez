@@ -21,11 +21,11 @@ Casi todo vive en repositorios privados de empresa. Estos son los casos de estud
 
 ### 🤖 Plataforma de automatización de procesos web
 
-**Problema:** procesos web repetitivos que se hacían a mano, cada uno con su propio flujo, formularios, pasarela de pago y formas de fallar.
+**Problema:** tareas web repetitivas que se hacían a mano, cada una con su propio flujo y sus propias formas de fallar.
 
-**Construido:** un núcleo común reutilizable (login, formularios, pagos con 3-D Secure, descargas, avisos) y un módulo pequeño por proceso. La estrategia de cada proceso se elige según lo que exige: HTTP directo cuando se puede, navegador completo con Selenium o Playwright cuando hace falta. Un lanzador en paralelo con timeouts y limpieza de procesos huérfanos, pools de proxies con aislamiento de red en Linux y simuladores para probar sin efectos reales.
+**Construido:** un núcleo común reutilizable y un módulo pequeño por proceso, con peticiones HTTP o navegador automatizado (Selenium / Playwright) según lo que necesite cada caso. Ejecución en paralelo y simuladores para probar sin efectos reales.
 
-**Resultado:** procesos desatendidos que corren en paralelo y, cuando algo falla, avisan en Slack, abren una incidencia y guardan capturas para diagnosticarlo.
+**Resultado:** procesos que se ejecutan solos y avisan cuando algo falla.
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white"> <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white"> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white"> <img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/Slack%20API-4A154B?style=flat&logo=slack&logoColor=white">
 
