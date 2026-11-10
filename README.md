@@ -57,12 +57,11 @@
     </td>
   </tr>
   <tr>
-    <td align="center" colspan="2" valign="top">
-      <h3>🐳 Infraestructura y automatización</h3>
+    <td align="center" width="50%" valign="top">
+      <h3>🐳 Infraestructura y despliegue</h3>
       <p>
         Despliegue de las aplicaciones con <b>Docker Compose</b> y <b>Caddy</b> en servidores <b>Hetzner</b>,
         con despliegue automático desde la rama principal tras revisión por PR.
-        También scripts y servicios en <b>Python</b> para automatizar procesos del día a día, con tests en <b>pytest</b>.
       </p>
       <p>
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white">
@@ -70,6 +69,31 @@
         <img src="https://img.shields.io/badge/Hetzner-D50C2D?style=flat&logo=hetzner&logoColor=white">
         <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white">
         <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white">
+      </p>
+    </td>
+    <td align="center" width="50%" valign="top">
+      <h3>🤖 Automatización de procesos</h3>
+      <img src="https://img.shields.io/badge/Estado-🟢%20En%20producción-2EA043?style=flat-square">
+      <p>
+        Plataforma en <b>Python</b> que ejecuta procesos web de principio a fin, sin intervención manual
+        y en paralelo: un <b>núcleo común reutilizable</b> (login, formularios, pagos, descargas, avisos)
+        y un módulo pequeño por proceso.
+      </p>
+      <p>
+        Automatización de navegador con <b>Selenium</b> y <b>Playwright</b> (iframes, pagos con 3-D Secure,
+        reintentos), y por <b>API/HTTP</b> cuando se puede. Pools de <b>proxies</b> y aislamiento de red en Linux,
+        servicios con <b>FastAPI</b>, datos con <b>Pandas</b> y <b>MySQL</b>, lectura de correo por IMAP,
+        alertas en <b>Slack</b>, tickets automáticos de incidencias y simuladores para probar sin efectos reales.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white">
+        <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white">
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white">
+        <img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white">
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white">
+        <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black">
+        <img src="https://img.shields.io/badge/Slack%20API-4A154B?style=flat&logo=slack&logoColor=white">
+        <img src="https://img.shields.io/badge/UiPath-FA4616?style=flat&logo=uipath&logoColor=white">
       </p>
     </td>
   </tr>
