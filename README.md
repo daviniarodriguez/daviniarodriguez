@@ -67,18 +67,3 @@ Inicio de sesión único para las aplicaciones internas con **Authentik** (OAuth
 | **🔐 Identidad** | ![Authentik](https://img.shields.io/badge/Authentik-%23FD4B2D.svg?style=flat&logo=authentik&logoColor=white) ![OIDC](https://img.shields.io/badge/OAuth2%20%2F%20OIDC-%23000000.svg?style=flat&logo=openid&logoColor=white) |
 | **⚙️ Herramientas** | ![Git](https://img.shields.io/badge/Git-%23F05032.svg?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=flat&logo=github&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-%232496ED.svg?style=flat&logo=docker&logoColor=white) ![Caddy](https://img.shields.io/badge/Caddy-%231F88C0.svg?style=flat&logo=caddy&logoColor=white) ![Hetzner](https://img.shields.io/badge/Hetzner-%23D50C2D.svg?style=flat&logo=hetzner&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-%230052CC.svg?style=flat&logo=jira&logoColor=white) ![DBeaver](https://img.shields.io/badge/DBeaver-%23382923.svg?style=flat&logo=dbeaver&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-%23FF6C37.svg?style=flat&logo=postman&logoColor=white) |
 | **🖋️ Editores** | ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-%230078D7.svg?style=flat) ![Claude Code](https://img.shields.io/badge/Claude%20Code-%23D97757.svg?style=flat&logo=anthropic&logoColor=white) |
-
-<table align="center">
-  <tr>
-    <td align="center" width="45%">
-      <img width="100%" src="https://gh-readme-profile.vercel.app/api?username=daviniarodriguez&theme=neon-dark&border_width=0&border_radius=15.2&hide_border=true" alt="daviniarodriguez" />
-    </td>
-    <td align="center" width="55%">
-      <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=daviniarodriguez&theme=2077" alt="daviniarodriguez" />
-    </td>
-  </tr>
-</table>
-
-<p align="right">
-  <img src="https://komarev.com/ghpvc/?username=daviniarodriguez" alt="contador de visitas">
-</p>
